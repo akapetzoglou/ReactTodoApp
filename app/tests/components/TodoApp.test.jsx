@@ -1,12 +1,12 @@
-var expect = require('expect');
+var React = require('react');
 var ReactDOM = require('react-dom');
 var {Provider} = require('react-redux');
 var TestUtils = require('react-addons-test-utils');
+var expect = require('expect');
 var $ = require('jquery');
-var React = require('react');
 
 var configureStore = require('configureStore');
-var TodoApp = require ('TodoApp');
+var TodoApp = require('TodoApp');
 import TodoList from 'TodoList';
 
 describe('TodoApp', () => {
